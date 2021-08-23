@@ -172,7 +172,7 @@
     <string name="title_setup_permissions">Conceder permisos</string>
     <string name="title_setup_permissions_remark">Para acceder a información de contactos (opcional)</string>
     <string name="title_setup_permissions_explanation">El permiso de contactos es necesario para buscar información de contactos y sugerirlos</string>
-    <string name="title_setup_permission_import_contacts" comment="title_setup_permission_import_contacts&#10;Title for link in setup screen">¿Cómo puedo importar contactos?</string>
+    <string name="title_setup_permission_import_contacts">¿Cómo puedo importar contactos?</string>
     <string name="title_setup_doze">Desactivar las optimizaciones de la batería</string>
     <string name="title_setup_doze_remark">Para enviar y recibir correo electrónico de forma confiable</string>
     <string name="title_setup_doze_explanation">Las optimizaciones de la batería deben desactivarse para la aplicación para asegurar que el envío y la recepción de mensajes en segundo plano sean confiables</string>
@@ -297,6 +297,7 @@
     <string name="title_advanced_prefix_once">Prefijar el asunto solo una vez al responder o reenviar</string>
     <string name="title_advanced_separate_reply">Insertar una línea horizontal antes de un encabezado de respuesta/reenvío</string>
     <string name="title_advanced_extended_reply">Usar encabezado de respuesta/reenvío extendido</string>
+    <string name="title_advanced_write_above">Escribir sobre el texto del remitente</string>
     <string name="title_advanced_write_below">Escribir debajo del texto del remitente</string>
     <string name="title_advanced_quote_reply">Citar texto a responder</string>
     <string name="title_advanced_limit_reply">Limitar el número de citas anidadas</string>
@@ -441,6 +442,7 @@
     <string name="title_advanced_autounstar">Eliminar automáticamente la estrella de los mensajes al ser movidos</string>
     <string name="title_advanced_auto_important">Hacer que los mensajes destacados sean importantes automáticamente</string>
     <string name="title_advanced_reset_importance">Restablecer importancia al mover mensajes</string>
+    <string name="title_advanced_reply_all">Deje pulsado el botón de respuesta para responder a todos</string>
     <string name="title_advanced_default_snooze">Tiempo de posponer por defecto</string>
     <string name="title_advanced_notifications">Administrar notificaciones</string>
     <string name="title_advanced_notifications_default">Canal por defecto</string>
@@ -917,7 +919,6 @@
     <string name="title_no_connection">Conectando a una o más cuentas &#8230;</string>
     <string name="title_no_folder">La carpeta no existe</string>
     <string name="title_no_format">El mensaje recibido originalmente será incluido</string>
-    <string name="title_no_image">La imagen no se pudo decodificar</string>
     <string name="title_no_search">La búsqueda en el servidor no está disponible para esta cuenta</string>
     <string name="title_too_large">Mensaje demasiado grande para reformatear completamente</string>
     <string name="title_truncated">Mensaje demasiado grande para mostrarlo por completo</string>

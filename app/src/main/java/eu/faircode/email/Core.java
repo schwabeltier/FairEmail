@@ -2061,6 +2061,23 @@ class Core {
                         folder.name = fullName;
                         db.folder().setFolderName(folder.id, fullName);
                     }
+
+                // Reselect Gmail archive folder
+                if (EntityFolder.ARCHIVE.equals(type) && account.isGmail()) {
+                    boolean gmail_archive_fixed = prefs.getBoolean("gmail_archive_fixed", false);
+                    if (!gmail_archive_fixed) {
+                        prefs.edit().putBoolean("gmail_archive_fixed", true).apply();
+                        EntityFolder archive = db.folder().getFolderByType(account.id, EntityFolder.ARCHIVE);
+                        if (archive == null) {
+                            archive = db.folder().getFolderByName(account.id, fullName);
+                            if (archive != null) {
+                                Log.e("Reselecting Gmail archive=" + fullName);
+                                archive.type = EntityFolder.ARCHIVE;
+                                db.folder().setFolderType(archive.id, archive.type);
+                            }
+                        }
+                    }
+                }
             }
         }
 
@@ -2476,7 +2493,7 @@ class Core {
 
                         try {
                             Long sent = helper.getSent();
-                            Long received = helper.getReceivedHeader();
+                            Long received = helper.getReceivedHeader(helper.getResent());
                             if (received == null)
                                 received = sent;
                             if (received == null)
@@ -3901,8 +3918,11 @@ class Core {
                 message.received > account.created) {
             Intent report = new Intent(ActivityView.ACTION_NEW_MESSAGE);
             report.putExtra("folder", folder.id);
+            report.putExtra("type", folder.type);
             report.putExtra("unified", folder.unified);
-            Log.i("Report new id=" + message.id + " folder=" + folder.name + " unified=" + folder.unified);
+            Log.i("Report new id=" + message.id +
+                    " folder=" + folder.type + ":" + folder.name +
+                    " unified=" + folder.unified);
 
             LocalBroadcastManager lbm = LocalBroadcastManager.getInstance(context);
             lbm.sendBroadcast(report);

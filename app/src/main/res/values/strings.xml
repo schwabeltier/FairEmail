@@ -357,6 +357,7 @@
     <string name="title_advanced_prefix_once">Prefix subject only once on replying or forwarding</string>
     <string name="title_advanced_separate_reply">Insert a horizontal line before a reply/forward header</string>
     <string name="title_advanced_extended_reply">Use extended reply/forward header</string>
+    <string name="title_advanced_write_above">Write above the sender\'s text</string>
     <string name="title_advanced_write_below">Write below the sender\'s text</string>
     <string name="title_advanced_quote_reply">Quote replied text</string>
     <string name="title_advanced_limit_reply">Limit the number of nested quotes</string>
@@ -510,6 +511,7 @@
     <string name="title_advanced_autounstar">Automatically remove stars from messages on moving messages</string>
     <string name="title_advanced_auto_important">Automatically make starred messages important</string>
     <string name="title_advanced_reset_importance">Reset importance on moving messages</string>
+    <string name="title_advanced_reply_all">Long press answer button to reply to all</string>
     <string name="title_advanced_default_snooze">Default snooze time</string>
 
     <string name="title_advanced_notifications">Manage notifications</string>

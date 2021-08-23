@@ -171,7 +171,7 @@
     <string name="title_setup_permissions">Giv tilladelser</string>
     <string name="title_setup_permissions_remark">For at få tilgå kontaktoplysninger (valgfrit)</string>
     <string name="title_setup_permissions_explanation">Kontakttilladelser kræves for at slå kontaktoplysninger op og foreslå kontaktpersoner</string>
-    <string name="title_setup_permission_import_contacts" comment="title_setup_permission_import_contacts&#10;Title for link in setup screen">Hvordan importeres kontakter?</string>
+    <string name="title_setup_permission_import_contacts">Hvordan importeres kontakter?</string>
     <string name="title_setup_doze">Deaktivér batterioptimering</string>
     <string name="title_setup_doze_remark">For at sende og modtage e-mail pålideligt</string>
     <string name="title_setup_doze_explanation">Batterioptimeringer bør deaktiveres for appen for at sikre pålidelig baggrundsbeskedafsendelse og -modtagelse</string>
@@ -294,6 +294,7 @@
     <string name="title_advanced_prefix_once">Kun ét emnepræfiks ved svar eller videresendelse</string>
     <string name="title_advanced_separate_reply">Indsæt en vandret linje før en svar-/videresendelsesoverskrift</string>
     <string name="title_advanced_extended_reply">Benyt udvidet svar-/videresendoverskrift</string>
+    <string name="title_advanced_write_above">Skriv over afsenderteksten</string>
     <string name="title_advanced_write_below">Skriv under afsenderens tekst</string>
     <string name="title_advanced_quote_reply">Citat af svartekst</string>
     <string name="title_advanced_limit_reply">Begræns antallet af indlejrede citater</string>
@@ -437,6 +438,7 @@
     <string name="title_advanced_autounstar">Fjern automatisk stjerner fra beskeder, når de flyttes</string>
     <string name="title_advanced_auto_important">Gør automatisk stjernemarkerede beskeder vigtige</string>
     <string name="title_advanced_reset_importance">Nulstil vigtighed, når beskeder flyttes</string>
+    <string name="title_advanced_reply_all">Langt tryk på svarknappen for at besvare alle</string>
     <string name="title_advanced_default_snooze">Standard udsættelsestid</string>
     <string name="title_advanced_notifications">Håndtér notifikationer</string>
     <string name="title_advanced_notifications_default">Standardkanal</string>
@@ -908,7 +910,6 @@
     <string name="title_no_connection">Opretter forbindelse til én eller flere konti &#8230;</string>
     <string name="title_no_folder">Mappe findes ikke</string>
     <string name="title_no_format">Den oprindeligt modtagne besked bliver inkluderet</string>
-    <string name="title_no_image">Billede kunne ikke afkodes</string>
     <string name="title_no_search">Søg på server er utilgængelig for denne konto</string>
     <string name="title_too_large">Besked for stor til fuldstændig omformatering</string>
     <string name="title_truncated">Besked for stor til fuldstændig visning</string>
