@@ -1901,7 +1901,7 @@ Plannung ist eine Pro-Funktion.
 
 Normalerweise hält FairEmail wann immer möglich eine Verbindung zu den konfigurierten E-Mail-Servern, um Nachrichten in Echtzeit zu empfangen. Wenn sie nicht wollen, zum Beispiel nicht gestört zu werden oder um Akku zu sparen, deaktivieren sie den Empfang in der Empfangseinstellungen. Dadurch wird der Hintergrunddienst, der sich um die automatische Synchronisierung kümmert, gestoppt; sowie die zugehörige Benachrichtigung entfernt.
 
-Sie können auch die *manuelle Synchronisierung* in den erweiterten Kontoeinstellungen aktivieren, wenn sie bestimmte Konten nur manull synchronisieren wollen.
+Sie können auch die *manuelle Synchronisierung* in den erweiterten Kontoeinstellungen aktivieren, wenn sie bestimmte Konten nur manuell synchronisieren wollen.
 
 Sie können in einer Nachrichtenliste herunterziehen oder im Ordnermenü auf *Jetzt synchronisieren* tippen, um die Nachrichten manuell zu synchronisieren.
 
